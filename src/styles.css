@@ -1,0 +1,88 @@
+.container {
+  position: center;
+  margin: 0;
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+  background-color: rgb(26, 95, 9);
+  padding-bottom: 110%;
+  padding-left: 10%;
+  padding-right: 3px;
+}
+
+img {
+  margin: 0;
+  width: 500px;
+  height: 40px;
+  position: center;
+}
+
+.heading {
+  /*background-color: rgb(233, 149, 222);*/
+  color: rgb(26, 95, 9);
+  position: center;
+  font-size: 120%;
+  /*margin: 20px 15px;*/
+  position: absolute;
+  top: 8%;
+  left: 25%;
+}
+
+input {
+  border: none;
+  background-color: none;
+}
+
+input[type="text"] {
+  font-family: "Indie Flower", cursive;
+  position: absolute;
+  background-color: rgb(250, 245, 245);
+  color: rgb(226, 55, 43);
+  border: none;
+  border-bottom: 3px dotted rgb(26, 95, 9);
+  margin: 0;
+  float: center;
+  position: absolute;
+  top: 28%;
+  left: 25%;
+  width: 30%;
+  font-size: 99%;
+}
+
+button {
+  position: absolute;
+  top: 25%;
+  left: 60%;
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.fondo {
+  position: relative;
+  border: none;
+  /*margin: 5px 10%;*/
+  padding: 0 1% 20px;
+  width: 80%;
+  height: 80%;
+  margin-right: 10px 2% 20px;
+  float: left;
+}
+
+ul {
+  position: absolute;
+  margin: 0;
+  position: absolute;
+  top: 38%;
+  left: 30%;
+  list-style-type: none;
+  color: rgb(226, 55, 43);
+  font-size: 100%;
+}
